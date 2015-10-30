@@ -1,0 +1,27 @@
+	body{
+		color:green;
+		font-family:Georgia, Garamond, serif;
+	}
+	h1 {
+		background-color:#F0F0F0;
+		font-style:underline;
+		font-size:80px;
+		text-align:center;
+		color:#404040;
+	}
+	p {
+		font-size:30px;
+		font-family:Garamond, serif;
+		font-style:italic;
+	}
+	a {
+		font-size:50px;
+		font-weight:bold;
+	}
+	img {
+		float:left;
+		width:50%;
+		height:500px;
+	}
+	
+	
