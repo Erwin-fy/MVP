@@ -1,0 +1,46 @@
+h1 {
+	color: #FF0000;
+	text-align: center;
+	text-shadow: 5px 5px 5px #FFCC00;
+}
+
+#div_black {
+	width:450px;
+	height:500px;
+	border: 4px solid black;
+	border-radius: 20px;
+	background: url(images/cal_background.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#entry {
+	width: 420px;
+	height: 50px;
+	margin: 10px;
+	border: 2px solid gray;
+	font-size: 30px;
+}
+.number {
+	width:90px;
+	height: 75px;
+	margin: 5px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	border-radius: 50%;
+	border: 1px solid gray;
+}
+.operation {
+	width:90px;
+	height: 75px;
+	margin: 5px;
+	font-size: 30px;
+	color: black;
+	font-weight: bold;
+	border-radius: 50%;
+	border: 1px solid gray;
+}
+#seven, #four, #one, #zero, #leftbracket {
+	margin-left: 15px;
+}
