@@ -1,0 +1,78 @@
+h1, h2 {
+	text-align: center;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+#infodiv {
+	width:350px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#pTime {
+	position: absolute;
+	top: -15px;
+	right: 70px;
+}
+#divTime {
+	width: 60px;
+	height: 25px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	text-align: center;
+	border: 1px solid #D2A2CC;
+}
+#gameProcess {
+	width: 150px;
+	height: 25px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	text-align: center;
+	border: 1px solid #D2A2CC;
+}
+#pScore {
+	position: absolute;
+	top: 15px;
+	right: 70px;
+}
+#divScore {
+	width: 60px;
+	height: 25px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	text-align: center;
+	border: 1px solid #D2A2CC;
+}
+#divMoles {
+	width: 300px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	border-top: 2px solid #D2A2CC;
+	border-bottom: 2px solid #D2A2CC;
+}
+#pInstr {
+	margin-left: 400px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.pInstrs {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 10px;
+	font-family: Microsoft YaHei, Verdana, sans-serif;
+}
+#indexButton {
+	width:0;
+	height:0;
+	border-width: 0;
+	background-color:#FFFFFF
+}

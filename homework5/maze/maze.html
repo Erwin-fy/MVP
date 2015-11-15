@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Maze</title>
+		<link rel="stylesheet" type="text/css" href="maze.css">
+	</head>
+	<body>
+		<h1>The Amazing Mouse Maze!</h1>
+		<h2>Move your mouse over the "S" to begin.</h2>
+		<p id="answer"></p>
+		<div id="maze">
+			<div id = "first" class="walls1 walls" value="0"></div>
+			<div class="walls2 walls" value="1"></div>
+			<div class="walls3 walls" value="2"></div>
+			<div class="walls4 walls" value="3"></div>
+			<div class="walls5 walls" value="4"></div>
+			<div class="walls6 walls" value="5"></div>
+			<div id="path"></div>
+			<div class="start area">S</div>
+			<div class="end area">E</div>
+		</div>
+		<p class="hint">The object of this game is to guide the mouse cursor through the star area and get to the end area.Be sure to avoid the walls:</p>
+		<div id="wall"></div>
+		<p class="hint">Good luck!</p>
+		<script type="text/javascript" src="maze.js"></script>
+	</body>
+</html>

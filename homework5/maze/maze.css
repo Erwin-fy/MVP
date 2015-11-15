@@ -1,0 +1,131 @@
+h1, h2 {
+	text-align: center;
+	font-family: Tahoma, Verdana, sans-serif;
+	height: 20px;
+}
+#maze {
+	width: 500px;
+	height: 250px;
+	background-color: #FFFFFF;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+#answer {
+	width: 900px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.walls1 {
+	width: 148px;
+	height: 156px;
+	background-color: #E6E6FA;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid black;
+}
+.walls2 {
+	width: 150px;
+	height: 156px;
+	background-color: #E6E6FA;
+	position: absolute;
+	left: 350px;
+	top: 10;
+	border: 1px solid black;
+}
+.walls3 {
+	width: 202px;
+	height: 49px;
+	background-color: #E6E6FA;
+	position: absolute;
+	left: 149px;
+	top: 0;
+	border: 1px solid black;
+	border-left-width: 0;
+	border-right-width: 0;
+}
+.walls4 {
+	width: 118px;
+	height: 160px;
+	background-color: #E6E6FA;
+	position: absolute;
+	left: 190px;
+	bottom: 0;
+	border: 1px solid black;
+}
+.walls5 {
+	width: 190px;
+	height: 50px;
+	background-color: #E6E6FA;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border: 1px solid black;
+	border-right-width: 0;
+}
+.walls6 {
+	width: 192px;
+	height: 50px;
+	background-color: #E6E6FA;
+	position: absolute;
+	left: 308px;
+	bottom: 0;
+	border: 1px solid black;
+	border-left-width: 0;
+}
+#path {
+	width: 42px;
+	height: 37px;
+	background-color: #FFFFFF;
+	position: absolute;
+	left: 200px;
+	top: 51px;
+	border: 1px solid black;
+	border-width: 0;
+
+}
+.start {
+	width: 35px;
+	height: 35px;
+	background-color: #00FF7F;
+	position: absolute;
+	left: 0;
+	top: 160px;
+	border: 1px solid black;
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+}
+.end {
+	width: 35px;
+	height: 35px;
+	background-color: #921AFF;
+	position: absolute;
+	right: 0;
+	top: 160px;
+	border: 1px solid black;
+	text-align: center;
+	font-size:30px;
+	font-weight: bold;
+
+}
+.hint {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+	font-family: Microsoft YaHei, Tahoma, sans-serif;
+}
+#wall {
+	width: 80px;
+	height: 30px;
+	background-color: #E6E6FA;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
