@@ -1,0 +1,80 @@
+h1 {
+	font-family: Microsoft YaHei, Tahoma, sans-serif;
+	text-align: center;
+}
+#div0 {
+	width: 360px;
+	height: 360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#old {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#win {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.part {
+	width: 86px;
+	height: 86px;
+	float: left;
+	cursor: pointer;
+	background-image: url("image/kobe.jpg");
+	border: 2px solid yellow;
+	transition: all 0s;
+	-moz-transition: all 0s;
+	-webkit-transition: all 0s;
+	o-transition: all 0s;
+}
+.part:hover {
+	width: 88px;
+	height: 86px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+.div16 {
+	border: 0;
+}
+#restart_div {
+	width: 125px;
+	height: 25px;
+	margin: 30px auto auto;
+	transition: all 0s;
+	-moz-transition: all 0s;
+	-webkit-transition: all 0s;
+	o-transition: all 0s;
+}
+#restart_button {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	background-color: blue;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	box-shadow: 5px 5px 5px yellow;
+	cursor: pointer;
+	transition: all 0s;
+	-moz-transition: all 0s;
+	-webkit-transition: all 0s;
+	o-transition: all 0s;
+}
+#restart_div:hover {
+	width: 110px;
+	height: 50px;
+	border: 3px solid #FF00FF;
+}
+#restart_div:hover #restart_button {
+	width: 110px;
+	height: 50px;
+	line-height: 50px;
+	margin: 1px;
+	border: 0;
+	font-family: Microsoft YaHei, Tahoma, sans-serif;
+}
