@@ -1,0 +1,37 @@
+h1, h2 {
+	font-weight: bolder;
+	font-family: Microsoft YaHei, Tahoma, sans-serif;
+}
+table, th, td {
+	border: 2px solid #FFC0CB;
+	border-collapse:collapse;
+}
+th {
+	background-color: #4B0082;
+	color: #FFF;
+	position: relative;
+	font-weight: bolder;
+	font-family: Microsoft YaHei, Tahoma, sans-serif;
+	text-align: left;
+}
+td {
+	font-family: Microsoft YaHei, Tahoma, sans-serif;
+}
+#staff {
+	width: 400px;
+}
+.alternate {
+	background-color: #D3D3D3;
+}
+.firstClass {
+	background-color: #ADD8E6;
+	background-image: url("../image/ascend.png");
+	background-position: 100%;
+	background-repeat: no-repeat;
+}
+.secondClass { 
+	background-color: #ADD8E6;
+	background-image: url("../image/descend.png");
+	background-position: 100%;
+	background-repeat: no-repeat;
+}
