@@ -1,0 +1,14 @@
+{
+  "name": "homework10",
+  "version": "1.0.0",
+  "description": "async",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wangfuyu",
+  "license": "ISC",
+  "dependencies": {
+    "jade": "^1.11.0"
+  }
+}

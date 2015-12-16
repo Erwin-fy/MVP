@@ -1,0 +1,227 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style: none;
+}
+.firstOrder {
+	width: 0;
+	height: 0;
+	display: none;
+}
+.secondOrder {
+	width:200px;
+	height:50px;
+	line-height:50px;
+	position: fixed;
+	bottom:520px;
+	left: calc(50% - 100px);
+	border-radius:50%;
+	text-align:center;
+	font-size:20px;
+	color:blue;
+	font-weight:bolder;
+	background-color:yellow
+}
+.firstMessage {
+	width: 0;
+	height: 0;
+	display: none;
+}
+.secondMessage {
+	width:500px;
+	height:100px;
+	line-height:100px;
+	position: fixed;
+	bottom:320px;
+	left: calc(50% - 250px);
+	border-radius: 20px;
+	text-align:center;
+	font-size:20px;
+	color: #F1F2F3;
+	font-weight:bolder;
+	background-color:red;
+}
+#at-plus-container {
+	width: 32px;
+	height: 32px;
+	position: fixed;
+	bottom: 100px;
+	left: 50%;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+#bottom-positioner {
+	position: absolute;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+.apb {
+	background-color: darkgray;
+	position: fixed;
+	bottom: 100px;
+	left: 50%;
+	height: 32px;
+	width: 32px;
+	border-radius: 100px;
+	-webkit-transition: all 1s 0.7s;
+	transition: all 1s 0.7s;
+}
+.icon {
+	-webkit-transition: all .0001s 0.7s;
+	transition: all .0001s 0.7s;
+	background-image: url("assets/images/atplus_white.png");
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#info-bar {
+	position: absolute;
+	top: 16px;
+	left: 16px;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	background-color: gray;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	border-radius: 100px;
+}
+.info {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	line-height: 130px;
+	color:yellow;
+	font-weight: bolder;
+	font-size: 50px;
+	border-radius: 50%;
+	text-align: center;
+}
+#control-ring li {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	opacity: 0;
+	width: 20px;
+	height: 20px;
+	line-height: 35px;
+	color: yellow;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bolder;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	border-radius: 50%;
+	background-position: center;
+	cursor: pointer;
+}
+.firstButtonClass {
+	background-color: rgba(48,63,159,1);
+}
+.secondButtonClass, .final {
+	background-color: gray;
+}
+.firstSpanClass {
+	width: 0;
+	height: 0;
+	opacity: 0;
+	display: inline-block;
+	line-height: 20px;
+	top: -6px;
+    right: -6px;
+	position: absolute;
+	background-color: red;
+	border-radius: 50%;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.secondSpanClass {
+	width: 0;
+	height: 0;
+	opacity: 0;
+	display: inline-block;
+	line-height: 20px;
+	top: -6px;
+    right: -6px;
+	position: absolute;
+	background-color: red;
+	border-radius: 50%;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+#at-plus-container:hover .secondSpanClass {
+	width: 20px;
+	height: 20px;
+	opacity: 1;
+}
+
+#at-plus-container:hover {
+	height: 300px;
+	width: 200px;
+	left: calc(50% - 100px);
+	bottom: 0px;
+}
+#at-plus-container:hover .apb {
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	-webkit-transform: scale(2);
+	transform: scale(2);
+	background-color: rgba(48,63,159,1);
+}
+#at-plus-container:hover .icon {
+	-webkit-transition: all .1s;
+	transition: all .1s;
+	background-image: url("assets/images/atplus_green.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25px;
+}
+#at-plus-container:hover #info-bar {
+	opacity: 1;
+	top: 0px;
+	left: 40px;
+	width: 130px;
+	height: 130px;
+}
+#at-plus-container:hover .mask {
+	top: 116px;
+	left: 18px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+}
+#at-plus-container:hover .history {
+	top: 164px;
+	left: 2px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+}
+#at-plus-container:hover .message {
+	top: 212px;
+	left: 24px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+}
+#at-plus-container:hover .setting {
+	top: 240px;
+	left: 70px;
+	opacity: 1;
+	width: 40px;
+	height: 40px;
+}
+#at-plus-container:hover .sign {
+	top: 230px;
+	left: 120px;
+	opacity: 1;
+	width: 40px;
+	height: 40px;
+}
